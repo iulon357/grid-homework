@@ -1,10 +1,31 @@
-
-
 body {
-    background-color: darkblue;
+  background-color: darkblue;
 }
 
 h1 {
-    color: #ffffff;
+  color: #ffffff;
 }
 
+.grid-box {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  gap: 5px;
+}
+
+.grid-item {
+  background-color: #ffffff;
+  color: darkblue;
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+}
+
+.grid-item-1 {
+  grid-row-start: 1;
+  grid-row-end: 3;
+}
+
+.grid-item-3 {
+    grid-column-start: 3;
+  grid-column-end: 4;
+}
