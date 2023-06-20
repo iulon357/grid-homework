@@ -1,3 +1,14 @@
+@font-face {
+  font-family: "lily";
+  src: url(/font/LilyScriptOne-Regular.ttf);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body {
   background-color: darkblue;
 }
@@ -17,10 +28,12 @@ body {
 
 h1 {
   color: #ffffff;
+  font-family: lily;
+  font-size: 32px;
 }
 
 img {
-  width: 48px;
+  width: 32px;
 }
 
 .grid-box {
@@ -34,10 +47,11 @@ img {
   color: darkblue;
   padding: 20px;
   font-size: 16px;
-  font-weight: bolder;
+  font-family: lily;
   display: flex;
   justify-content: center;
   align-items: center;
+  border-radius: 5px;
 }
 
 .grid-item-1 {
