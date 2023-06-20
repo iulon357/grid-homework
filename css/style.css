@@ -2,6 +2,17 @@ body {
   background-color: darkblue;
 }
 
+.container {
+  max-width: 1200px;
+  width: 100%;
+  margin: auto;
+  padding: 0 16px;
+}
+
+.header {
+  display: flex;
+}
+
 h1 {
   color: #ffffff;
 }
@@ -16,16 +27,26 @@ h1 {
   background-color: #ffffff;
   color: darkblue;
   padding: 20px;
-  font-size: 30px;
+  font-size: 16px;
   text-align: center;
 }
 
-.grid-item-1 {
+/* .grid-item-1 {
   grid-row-start: 1;
   grid-row-end: 3;
 }
 
 .grid-item-3 {
-    grid-column-start: 3;
+  grid-column-start: 3;
+  grid-column-end: 5;
+}
+
+.grid-item-4 {
+  grid-column-start:2 ;
   grid-column-end: 4;
 }
+
+.grid-item-5 {
+  grid-row-start: -5;
+  grid-row-end: -3;
+} */
