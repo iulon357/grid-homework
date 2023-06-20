@@ -11,6 +11,8 @@ body {
 
 .header {
   display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 h1 {
@@ -28,7 +30,10 @@ h1 {
   color: darkblue;
   padding: 20px;
   font-size: 16px;
-  text-align: center;
+  font-weight: bolder;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .grid-item-1 {
